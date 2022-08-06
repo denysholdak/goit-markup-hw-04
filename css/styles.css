@@ -14,6 +14,7 @@
     --bg-hero:#C4C4C4;
     --grad: rgba(47, 48, 58, 0.4);
     --massanger: #afb1b8;
+    --icon-hover-color: #ffffff;
 }
 
 body {
@@ -312,7 +313,6 @@ margin-bottom: 30px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: var(--massanger);
     cursor: pointer;
 }
 
@@ -322,7 +322,12 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: var(--massanger);
+    
 }
+
+
+
 
 .massenger-item:not(:last-child){
 margin-right: 10px;
