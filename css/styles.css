@@ -56,7 +56,7 @@ img {
 .link {
     text-decoration: none;
     color: currentColor;
-}
+    }
 
 /*Шапка*/
 .header .container,
@@ -312,21 +312,24 @@ margin-bottom: 30px;
 .massenger-item {
     width: 44px;
     height: 44px;
-    fill: var(--massanger);
-    border-radius: 50%;
-    cursor: pointer;
+    
+    
+    
     
 }
 
 .team-link {
-width: 100%;
+    cursor: pointer; 
+    border-radius: 50%;
+    fill: var(--massanger);
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+      
     
 }
-
 
 
 
@@ -348,16 +351,23 @@ margin-right: 10px;
 }
 
 .klients li {
+    width: 170px;
+    height: 92px;
+    cursor: pointer;
+}
+
+.klients-link{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
-    height: 92px;
     border: 1px solid var(--massanger);
     border-radius: 4px;
     fill: var(--massanger);
-    cursor: pointer;
+    width: 100%;
+    height: 100%;
 }
+
+
 .klients li:not(:last-child){
 margin-right: 30px;
 }
