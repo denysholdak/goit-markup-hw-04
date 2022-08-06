@@ -138,7 +138,7 @@ height: 80px;
     color: var(--accent-color) ;
 }
 
-/*Студия*/
+/*Студія*/
 
 /*Герой*/
 
@@ -193,7 +193,7 @@ height: 80px;
     background-color: var(--hero-button);
 }
 
-/*Особенности*/
+/*Особливості*/
 
 .none {
     position: absolute;
@@ -243,7 +243,7 @@ display: flex;
     text-transform: uppercase;
 }
 
-/*Оглавление секций*/
+/*Заголовна секція*/
 .title {
     margin-bottom: 50px;
 
@@ -253,7 +253,7 @@ display: flex;
     text-align: center;
 }
 
-/*Чем мы занимаемся*/
+/*Чим ми займаємся*/
 .work.section {
     padding-top: 0;
 }
@@ -312,8 +312,10 @@ margin-bottom: 30px;
 .massenger-item {
     width: 44px;
     height: 44px;
+    fill: var(--massanger);
     border-radius: 50%;
     cursor: pointer;
+    
 }
 
 .team-link {
@@ -322,7 +324,6 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--massanger);
     
 }
 
@@ -443,7 +444,7 @@ font-weight: 700;
         align-items: center;
 }
 
-/*Портфолио*/
+/*Портфоліо*/
 .portfolio .button {
     display: flex;
     justify-content: center;
